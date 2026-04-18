@@ -235,15 +235,18 @@ footer.footsy {
 }
 
 .mobilestack {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
+}
+.explore-brands {
+    margin: 1rem 0;
+
 }
 
 .footsy-heading {
     text-transform: capitalize;
     padding-left: 2rem;
-    margin-bottom: 2rem;
     color: #fff;
 }
 
@@ -258,10 +261,7 @@ footer.footsy ul li {
 
 }
 
-.explore-brands {
-    margin: 1rem 0;
 
-}
 
 
 
