@@ -61,18 +61,17 @@ body {
     border-radius: none;
 }
 
-.services {
+/* .services {
     margin: 3rem 0;
     display: flex;
     gap: 7px;
+} */
 
-}
-
-.services-items {
+/* .services-items {
     display: flex;
     flex-direction: column;
     gap: 2px;
-}
+} */
 
 .shpping {
     padding: 0;
@@ -159,7 +158,7 @@ body {
 .feature-item {
     display: flex;
     gap: 12px;
-    margin-left: 38%;
+    margin-left: 38% auto;
 
 }
 
@@ -273,10 +272,10 @@ footer.footsy ul li {
         background-size: 90%;
     }
 
-    .ptoduct-grid {
+    /* .ptoduct-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
-    }
+    } */
 
 }
