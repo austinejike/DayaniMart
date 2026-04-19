@@ -117,13 +117,14 @@ body {
 }
 
 .discount-offer1 {
+    color: #0a0a09;
     position: absolute;
     top: 5%;
-    right: 1.5rem;
+    left: 1.5rem;
 }
 
 .discount-offer2 {
-    color: white;
+    color: #0a0a09;
     position: absolute;
     top: 5%;
     left: 8px;
@@ -135,6 +136,17 @@ body {
     top: 8%;
     left: 1.5rem;
 }
+.services {
+    display: flex;
+    gap: 12px;
+    padding-top: 24px;
+}
+
+.services-items {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .feature-product {
     display: flex;
@@ -245,10 +257,24 @@ footer.footsy ul li {
         background-size: 90%;
     }
 
-    /* .ptoduct-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    } */
+    .c-caption {
+        color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .discount-offer1 {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+
+    .discount-offer2 {
+        color: #0a0a09;
+        position: absolute;
+        bottom:  0;
+        left: 7px;
+    }
 
 }
