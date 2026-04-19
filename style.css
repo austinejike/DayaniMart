@@ -257,6 +257,13 @@ footer.footsy ul li {
         background-size: 90%;
     }
 
+        .c-img {
+            height: 480px;
+            width: 100%;
+            object-fit: cover;
+            aspect-ratio: 4/3;
+        }
+
     .c-caption {
         color: black;
         position: absolute;
